@@ -1,0 +1,25 @@
+{
+  "login": [
+    {
+      "email": "teste@teste.com",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "conta": [
+    {
+      "email": "teste@teste.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "address": {
+        "zipCode": "05653-070",
+        "street": "Praça Roberto Gomes Pedrosa",
+        "addressNumber": "555",
+        "neighborhood": "Jardim Leonor",
+        "city": "São Paulo",
+        "state": "SP"
+      },
+      "id": 1
+    }
+  ]
+}

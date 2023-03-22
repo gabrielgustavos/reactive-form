@@ -1,0 +1,27 @@
+<div class="grid-container">
+  <div class="background-left"></div>
+  <form [formGroup]="formData" (ngSubmit)="onSubmit()" class="form-container">
+    <app-input
+      label="E-mail"
+      type="text"
+      [control]="formData.controls['email']"
+      formControlName="email"
+    ></app-input>
+
+    <app-input
+      label="Password"
+      type="password"
+      [control]="formData.controls['password']"
+      formControlName="password"
+    ></app-input>
+
+    <app-button
+      [type]="'submit'"
+      [text]="'Login'"
+    ></app-button>
+    <app-button
+    [text]="'Registre-se'"
+    (click)="goToRegister()"
+  ></app-button>
+  </form>
+</div>
